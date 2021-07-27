@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Pacifico&display=swap");
 
+:root{
+    --primary-color:red;
+}
 
 body{
     font-family: 'Inter', 
     sans-serif;
 }
+ hr{
+     margin : 4rem 0rem;
+ }
 
 /**container**/
 .container{
@@ -17,3 +23,26 @@ body{
     max-width: 600px;
     margin: auto;
     }
+
+
+/**links**/
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var
+    (--primary-color);
+    border-radius: 0.5rem;
+    color: orange;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border:1px solid var
+    (--primary-color);
+}
+/***look into BEM naming convention for
+css**/
